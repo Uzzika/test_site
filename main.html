@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>AirQuest — Найди билеты и разгадку!</title>
+    <meta charset="UTF-8">
+    <style>
+        body { font-family: Arial, sans-serif; background: #f5f5f5; }
+        .container { max-width: 800px; margin: 0 auto; padding: 20px; }
+        .search-box { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h1 { color: #0066cc; text-align: center; }
+        .hint { color: #666; text-align: center; font-style: italic; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>✈️ AirQuest</h1>
+        <p class="hint">Ищи не только билеты, но и подсказки...</p>
+        
+        <div class="search-box">
+            <input type="text" placeholder="Откуда" id="from">
+            <input type="text" placeholder="Куда" id="to">
+            <button>Найти билеты</button>
+        </div>
+    </div>
+</body>
+</html>
+<!-- 
+  Подсказка 1: Настоящий ответ не в билетах, а в том, что их объединяет.
+  Ищи там, где небо встречает землю.
+-->
+<div class="search-box">
+    <!-- 
+      Подсказка 2: Код города — не просто буквы. 
+      Первая буква разгадки — последняя в слове "небо".
+    -->
+    <input type="text" placeholder="Откуда" id="from">
+    
+    <!-- 
+      Подсказка 3: Финал там, где начинается путь.
+      Ответ в сумме цифр: 3, 1, 4.
+    -->
+    <input type="text" placeholder="Куда" id="to">
+</div>
+
+<!-- 
+  Разгадка: Горизонт. 
+  (Оно и в небе, и на земле, а цифры 3+1+4=8 — буква "Г" в алфавите)
+-->
